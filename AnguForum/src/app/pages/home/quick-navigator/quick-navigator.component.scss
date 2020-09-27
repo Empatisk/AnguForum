@@ -1,0 +1,26 @@
+@import "../../../../styles/colors.scss";
+@import "../../../../styles/variables.scss";
+
+.root {
+    width: 304px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    height: 44px;
+    background-color: $color-component-bg-primary;
+    border-radius: $af-border-radius $af-border-radius 0 0;
+}
+
+.content {
+    background-color: $color-component-bg-secondary;
+    flex-grow: 1;
+    border-radius: 0 0 $af-border-radius $af-border-radius;
+}
+
+.content-inner {
+    overflow-y: scroll;
+    margin: 4px;
+}

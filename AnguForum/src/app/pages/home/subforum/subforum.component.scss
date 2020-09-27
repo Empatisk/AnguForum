@@ -1,0 +1,58 @@
+@import "../../../../styles/colors.scss";
+@import "../../../../styles/variables.scss";
+
+.root {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    background-color: $color-component-bg-primary;
+    flex-basis: 68px;
+    border-radius: $af-border-radius $af-border-radius 0 0;
+}
+
+.header div {
+    flex-grow: 1;
+}
+
+.footer {
+    background-color: $color-component-bg-secondary;
+    flex-basis: 58px;
+    border-radius: 0 0 $af-border-radius $af-border-radius;
+}
+
+.title {
+    position: relative;
+    left: $af-margin-more;
+    top: $af-margin-more;
+}
+
+.numbers {
+    position: relative;
+    left: $af-margin-more;
+    top: $af-margin-more;
+}
+
+.indicator {
+    position: fixed;
+    flex: 1 0 100%;
+    height: 110px;
+    width: 2px;
+    margin-top: $af-margin;
+    margin-bottom: $af-margin;
+    background-color: $color-apple;
+    box-shadow: 0px 0px 4px 0px $color-apple;
+}
+
+.icon {
+    position: relative;
+    margin-left: auto;
+    margin-right: $af-margin-more;
+    margin-top: $af-margin-more;
+    width: 46px;
+    height: 46px;
+    background-color: grey;
+}

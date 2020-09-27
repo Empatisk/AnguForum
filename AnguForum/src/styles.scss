@@ -1,0 +1,16 @@
+@import "styles/colors.scss";
+@import "styles/fonts.scss";
+@import "styles/variables.scss";
+
+body {
+    color: white;
+    background-color: $color-backdrop;
+    margin: unset;
+}
+
+.page {
+    margin-left: 248px;
+    margin-right: 248px;
+    background-color: $color-page-background;
+    height: calc(100vh - #{$height-header});
+}

@@ -1,0 +1,8 @@
+@import "../../../styles/colors.scss";
+@import "../../../styles/variables.scss";
+
+.root {
+    height: $height-header;
+    width: 100%;
+    background-color: $color-component-bg-secondary;
+}
